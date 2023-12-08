@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color:cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper {
+    max-width: 500px;
+}
+
+.swiper-wrapper {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.img {
+    border-radius: 10px;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: white;
+    opacity: .5;
+    font-size: 20px;
+    z-index: 1;
+}
+
+#left {
+    left: 10px;
+}
+
+#right {
+    right: 10px;
+}
